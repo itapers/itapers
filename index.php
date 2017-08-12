@@ -18,10 +18,6 @@ if(version_compare(PHP_VERSION,'5.3.0','<'))  die('PHP版本要求 PHP > 5.3.0 !
 define('APP_DEBUG',false);
 // 定义应用目录
 define('APP_PATH','./Application/');
-if(!is_file(APP_PATH . 'Install/Data/install.lock')){
-    header('Location: ./install.php');
-    exit;
-}
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 

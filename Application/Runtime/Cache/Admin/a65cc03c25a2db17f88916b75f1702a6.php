@@ -1,4 +1,5 @@
 <?php if (!defined('THINK_PATH')) exit();?>
+
   <!DOCTYPE html>
 <html>
 
@@ -6,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>里程密-查看友链</title>
+    <title>后台管理~</title>
     <link href="/Public/Default/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Public/Default/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="/Public/Default/css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
@@ -34,7 +35,7 @@
     <div id="wrapper">
 
         <!-- start left -->
-
+               
       <nav class="navbar-default navbar-static-side" role="navigation" id = "navs">
             <div class="sidebar-collapse">
                 <ul class="nav" id="side-menu">
@@ -45,7 +46,7 @@
                         </span> <span class="text-muted text-xs block">欢迎回来~~   </span> </span>
                     </div>
                     <div class="logo-element">
-                        里程密
+                        <?php echo C('title');?>
                     </div>
                 </li>
                     <li class="active">
@@ -156,72 +157,56 @@
                     </nav>
                 </div>
 
-        <div class="row wrapper border-bottom white-bg page-heading">
-                <div class="col-lg-10">
-                    <h2>查看友链</h2>
-                </div>
-                <div class="col-lg-2">
+         <!-- end left -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="wrapper wrapper-content">
+                <div class="row">
+                <center><h1>主题</h1></center>
+                <div class="col-lg-4">
+                        <div class="ibox-content text-center">
+                                <h1>默认主题</h1>
+                                <div class="m-b-sm">
+                                    <img alt="image" src="./Application/Home/View/Default/preview.jpg" width="100%;">
+                                </div>
+                                <p class="font-bold"><span class="label label-info">版本：2.2</span>
+                                    <span class="label label-success">作者：MonkeyCode</span></p>
+                                <div class="text-center">
+                                            <a href="http://default.lcm.wang/" target="_blank"><button type="button" class="btn btn-primary">演示</button></a>
+                                            <button type="button" class="btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-content="这是博客程序自带的默认主题">说明</button>
+                                             <button type="button" class="btn btn-w-m btn-warning" onclick="alert('此主题无设置方法')">设置</button>
+                                            <button type="button" class="btn btn-w-m btn-danger" disabled="">卸载</button>
+                                            <?php if($now_them == 'Default'): ?><button type="button" class="btn btn-w-m btn-default" style="width: 100%;margin-top: 10px;" disabled="">当前已启用</button>
+                                            <?php else: ?>
+                                                <a href="<?php echo U('Theme/change_them',array('them'=>'Default'));?>"><button type="button" class="btn btn-w-m btn-info" style="width: 100%;margin-top: 10px;">启用</button></a><?php endif; ?>
 
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                <div class="ibox float-e-margins">
-                    <div class="ibox-title">
-                        <h5>爱我所选，选我所爱，爱里程密，爱生活！</h5>
-                        <div class="ibox-tools">
-                            <a class="collapse-link">
-                                <i class="fa fa-chevron-up"></i>
-                            </a>
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                <i class="fa fa-wrench"></i>
-                            </a>
-                            <ul class="dropdown-menu dropdown-user">
-                                <li><a href="#">Config option 1</a>
-                                </li>
-                                <li><a href="#">Config option 2</a>
-                                </li>
-                            </ul>
-                            <a class="close-link">
-                                <i class="fa fa-times"></i>
-                            </a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="ibox-content">
+                    <?php if(is_array($them_list)): foreach($them_list as $key=>$vo): ?><div class="col-lg-4">
+                        <div class="ibox-content text-center">
+                                <h1><?php echo ($vo["title"]); ?></h1>
+                                <div class="m-b-sm">
+                                    <img alt="image" src="<?php echo ($vo["root_dir"]); echo ($vo["preview_file"]); ?>" width="100%;">
+                                </div>
+                                <p class="font-bold"><span class="label label-info">版本：<?php echo ($vo["versions"]); ?></span>
+                                    <span class="label label-success">作者：<?php echo ($vo["author"]); ?></span></p>
+                                <div class="text-center">
+                                            <a href="<?php echo ($vo["demo_url"]); ?>" target="_blank"><button type="button" class="btn btn-primary">演示</button></a>
+                                            <button type="button" class="btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-content="<?php echo ($vo["info_file"]); ?>">说明</button>
+                                             <a href="<?php echo ($vo["root_dir"]); echo ($vo["set_file"]); ?>" target="_blank"><button type="button" class="btn btn-w-m btn-warning">设置</button></a>
+                                            <a href="<?php echo U('Theme/del_them',array('dir_str'=>$vo['remove_file']));?>" onclick="return shifou()"><button type="button" class="btn btn-w-m btn-danger">卸载</button></a>
+                                            <?php if($now_them == $vo['dir_name']): ?><button type="button" class="btn btn-w-m btn-default" style="width: 100%;margin-top: 10px;" disabled="">当前已启用</button>
+                                            <?php else: ?>
+                                                <a href="<?php echo U('Theme/change_them',array('them'=>$vo['dir_name']));?>"><button type="button" class="btn btn-w-m btn-info" style="width: 100%;margin-top: 10px;">启用</button></a><?php endif; ?>
 
-                    <table class="table table-striped table-bordered table-hover dataTables-example" >
-                    <thead>
-                    <tr>
-                        <th>序号</th>
-                        <th>友链标题</th>
-                        <th>友链描述</th>
-                        <th>友链链接</th>
-                        <th>添加时间</th>
-                        <th>操作</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <?php if(is_array($list)): foreach($list as $k=>$vo): ?><tr class="gradeU">
-                        <td><?php echo ($vo["id"]); ?></td>
-                        <td><?php echo ($vo["title"]); ?></td>
-                        <td><?php echo ($vo["content"]); ?></td>
-                        <td><?php echo ($vo["url"]); ?></td>
-                        <td><?php echo (date( "Y-m-d H:i:s",$vo["ctime"])); ?></td>
-                        <td>
-                           <a href="<?php echo U('Friendlink/update',array('id'=>$vo['id']));?>"><button type="button" class="btn btn-w-m btn-info">修改</button></a>
-                            <a href="<?php echo U('Friendlink/delete',array('id'=>$vo['id']));?>" onclick = "return shifou();"><button type="button" class="btn btn-w-m btn-danger">删除</button></a>
-                        </td>
-                    </tr><?php endforeach; endif; ?>
-                    </tbody>
-
-                    </table>
-                     <?php echo ($page); ?>
+                                </div>
+                            </div>
+                        </div><?php endforeach; endif; ?>
                     </div>
                 </div>
-            </div>
-            </div>
-
-    <!-- start footer -->
+                </div>
+            <!-- start footer -->
                     
 <div class="footer">
     <div class="pull-right">
@@ -294,4 +279,11 @@
     <!-- Toastr -->
 
             <!-- end footer -->
+            </div>
         </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title><?php echo ($fenleiInfo["name"]); ?>-<?php echo ($SiteInfo["title"]); ?></title>
+    <title>邀请码与友链-<?php echo ($SiteInfo["title"]); ?></title>
     <meta name = "keywords" content="<?php echo ($SiteInfo["keywords"]); ?>" >
     <meta name = "description" content="<?php echo ($SiteInfo["description"]); ?>" >
     <link href="/Public/Default/css/bootstrap.min.css" rel="stylesheet">
@@ -188,8 +188,6 @@
                 </div>
                 <!-- 注册结束 -->
 
-
-
 <!-- 本页导航栏开始 -->
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-10">
@@ -199,7 +197,7 @@
                 <a href="/index.php">首页</a>
             </li>
             <li class="active">
-                <strong><?php echo ($fenleiInfo["name"]); ?></strong>
+                <strong>邀请码与友链</strong>
             </li>
         </ol>
     </div>
@@ -212,53 +210,69 @@
 <!-- 正文开始 -->
 <div class="wrapper wrapper-content animated fadeInRight">
     <div class="row">
-        <div class="col-lg-12">
-                        <link rel="stylesheet" type="text/css" href="/Public/Default/doudong/css/type2.css" />
-                    <div class = "row">
-                        <?php if(is_array($articleList)): foreach($articleList as $key=>$vo): ?><div class="col-lg-6">
-                                <div class="ibox float-e-margins">
-                                    <div>
-                                        <div class="ibox-content no-padding border-left-right" >
-                                        <div class="grid">
-                                        <figure class="effect-layla">
-                                            <img alt="image" class="img-responsive" src="<?php echo ($vo["pic"]); ?>" style="width:100%;max-height:300px;">
-                                            <figcaption>
-                                            <h2><?php echo (msubstr(strip_tags($vo["title"]),0,20,'utf-8',false)); ?></h2>
-                                            <p><?php echo (msubstr(strip_tags($vo["content"]),0,20,'utf-8',true)); ?></p>
-                                            <a href="<?php echo U('Article/index',array('id'=>$vo['id']));?>">View more</a>
-                                        </figcaption>
-                                        </figure>
-                                        </div>
-
-                                        </div>
-                                        <div class="ibox-content profile-content" style="padding:10px;">
-                                            <a href="<?php echo U('Article/index',array('id'=>$vo['id']));?>"><center><h2><strong><?php echo ($vo["title"]); ?></strong></h2></center></a>
-                                            <p><?php echo (msubstr(strip_tags($vo["content"]),0,100,'utf-8',true)); ?></p>
-                                            <span class="label label-primary" style="font-size:12px;">作者：<?php echo ($vo["truename"]); ?></span>
-                                            <span class="label label-info"   style="font-size:12px;">查看：<?php echo ($vo["view"]); ?></span>
-                                            <span class="label label-warning"   style="font-size:12px;">时间：<?php echo (date( "Y-m-d",$vo["ctime"])); ?></span>
-                                            <p>
-                                            </p>
-                                            <div class="user-button">
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <a href="<?php echo U('Article/index',array('id'=>$vo['id']));?>"><button type="button" class="btn btn-danger btn-sm btn-block"><i class="fa fa-envelope"></i>点击阅读</button></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+        <div class="col-lg-6">
+            <center><h1>获得本站邀请码</h1></center>
+                <div class="progress progress-striped active">
+                                    <div style="width: 33%" class="progress-bar progress-bar-success">
+                                        <span class="sr-only">30% Complete (success)</span>
                                     </div>
-                                </div>
-                            </div><?php endforeach; endif; ?>
+                                    <div style="width: 33%" class="progress-bar progress-bar-warning">
+                                        <span class="sr-only">15% Complete (warning)</span>
+                                    </div>
+                                    <div style="width: 34%" class="progress-bar progress-bar-danger">
+                                        <span class="sr-only">40% Complete (danger)</span>
+                                    </div>
                     </div>
-                    <div class= "text-center"><?php echo ($page); ?></div>
-                </div>
-            </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                        <i class="fa fa-info-circle"></i>为什么需要邀请码注册？
+                        </div>
+                        <div class="panel-body">
+                        <?php echo ($SiteInfo["code"]); ?>
+                        </div>
+                    </div>
         </div>
-        <!-- 正文结束 -->
+        <div class="col-lg-6">
+        <center><h1>友情链接</h1></center>
+                <div class="progress progress-striped active">
+                                    <div style="width: 33%" class="progress-bar progress-bar-success">
+                                        <span class="sr-only">30% Complete (success)</span>
+                                    </div>
+                                    <div style="width: 33%" class="progress-bar progress-bar-warning">
+                                        <span class="sr-only">15% Complete (warning)</span>
+                                    </div>
+                                    <div style="width: 34%" class="progress-bar progress-bar-danger">
+                                        <span class="sr-only">40% Complete (danger)</span>
+                                    </div>
+                    </div>
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                        <i class="fa fa-info-circle"></i>友情链接说明
+                        </div>
+                        <div class="panel-body">
+                        <?php echo ($SiteInfo["friend_link"]); ?>
+                        </div>
+                    </div>
+        </div>
+    </div>
+    <div class="row">
+            <ul class="sortable-list connectList agile-list ui-sortable">
+            <?php if(is_array($friendlinkarr)): foreach($friendlinkarr as $key=>$vo): ?><div class = "col-lg-3">
+                                <li class="<?php echo ($vo["type"]); ?>-element">
+                                    <?php echo ($vo["content"]); ?>
+                                    <div class="agile-detail">
+                                        <a href="<?php echo ($vo["url"]); ?>" class="pull-right btn btn-xs btn-<?php echo ($vo["type"]); ?>" target="_blank"><?php echo ($vo["title"]); ?></a>
+                                        <i class="fa fa-clock-o"></i><?php echo (date( "Y-m-d",$vo["ctime"])); ?>
+                                    </div>
+                                </li>
+                </div><?php endforeach; endif; ?>
+                            </ul>
+    </div>
+    </div>
+<!-- 正文结束 -->
 
-        <!-- 调用脚部文件 -->
-              <a href="#0" class="cd-top">↑</a>
+<!-- 调用脚部文件 -->
+      <a href="#0" class="cd-top">↑</a>
         <div class="footer" style="z-index:9999;">
             <div class="pull-right">
                <!--<a href="<?php echo U('Admin/Index/index');?>" target="_blank">后台登陆</a>&nbsp;&nbsp;<strong>如果你使用本站程序</strong> 请保留友情链接.-->

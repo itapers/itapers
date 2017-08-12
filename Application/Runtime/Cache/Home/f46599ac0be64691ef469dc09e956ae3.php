@@ -542,7 +542,7 @@ if(($articleInfo['articlepassword'] != '' && $_SESSION[$article_id] == $articleI
     $(function() {
         $("#socialShare").socialShare({
             content: '<?php echo (msubstr(strip_tags($vo["content"]),0,160,'utf-8',true)); ?>',
-            url:'http://<?php echo $_SERVER["SERVER_NAME"];?>/index.php?m=home&c=article&a=index&id=13',
+            url:'http://<?php echo $_SERVER["SERVER_NAME"];?>/index.php?m=home&c=article&a=index&id=8',
             titile:'<?php echo ($articleInfo["title"]); ?>-<?php echo ($SiteInfo["title"]); ?>',
             pic:'<?php echo ($articleInfo["pic"]); ?>'
         });
