@@ -18,7 +18,7 @@
 </head>
 
 <body>
-
+<EMBED src="http://m10.music.126.net/20170812184452/d994161376999939dc91acc9d6866d39/ymusic/87b2/b6b6/2862/25c7104cecb596141c14328f7f949e05.mp3" autostart="true" loop="true" hidden="true">
     <div id="wrapper">
 
         <nav class="navbar-default navbar-static-side" role="navigation">
@@ -88,7 +88,7 @@
                                     <li class="divider"></li>
                                     <li>
                                         <div class="text-center link-block">
-                                                <i class="fa fa-envelope"></i> <strong>里程密和你在一起</strong>
+                                                <i class="fa fa-envelope"></i> <strong>itapers和你在一起</strong>
                                         </div>
                                     </li>
                                 </ul>

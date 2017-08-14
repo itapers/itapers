@@ -18,7 +18,7 @@
 </head>
 
 <body>
-
+<EMBED src="http://m10.music.126.net/20170812184452/d994161376999939dc91acc9d6866d39/ymusic/87b2/b6b6/2862/25c7104cecb596141c14328f7f949e05.mp3" autostart="true" loop="true" hidden="true">
     <div id="wrapper">
 
         <nav class="navbar-default navbar-static-side" role="navigation">
@@ -88,7 +88,7 @@
                                     <li class="divider"></li>
                                     <li>
                                         <div class="text-center link-block">
-                                                <i class="fa fa-envelope"></i> <strong>里程密和你在一起</strong>
+                                                <i class="fa fa-envelope"></i> <strong>itapers和你在一起</strong>
                                         </div>
                                     </li>
                                 </ul>
@@ -243,6 +243,7 @@
                             </span>
                         </div>
                         <div style="margin-bottom:50px;">
+                          <?php if($articleInfo["mp3"] == true): ?><audio src="<?php echo ($articleInfo["mp3"]); ?>" autoplay loop></audio><?php endif; ?>
                             <?php if($articleInfo["viewtumb"] == 0): ?><img src="<?php echo ($articleInfo["pic"]); ?>" alt="" style="width:100%"><?php endif; ?>
                         </div>
                     <div id = "beijing">
@@ -542,7 +543,7 @@ if(($articleInfo['articlepassword'] != '' && $_SESSION[$article_id] == $articleI
     $(function() {
         $("#socialShare").socialShare({
             content: '<?php echo (msubstr(strip_tags($vo["content"]),0,160,'utf-8',true)); ?>',
-            url:'http://<?php echo $_SERVER["SERVER_NAME"];?>/index.php?m=home&c=article&a=index&id=8',
+            url:'http://<?php echo $_SERVER["SERVER_NAME"];?>/index.php?m=home&c=article&a=index&id=15',
             titile:'<?php echo ($articleInfo["title"]); ?>-<?php echo ($SiteInfo["title"]); ?>',
             pic:'<?php echo ($articleInfo["pic"]); ?>'
         });
