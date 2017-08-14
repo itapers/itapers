@@ -1,0 +1,252 @@
+[ 2017-08-13T22:57:32+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/5990484d0f2d3.mp3
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:57:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:33+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/599069043d331.mp3
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:34+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:52+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/599069043d331.mp3
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:52+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:52+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:52+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:52+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:58:53+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:48+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/599069043d331.mp3
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:49+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:49+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:49+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:49+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:49+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:49+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:49+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:49+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:49+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:49+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:49+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:49+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:50+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:50+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:50+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:50+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:50+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:50+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:50+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+
+[ 2017-08-13T22:59:50+08:00 ] 127.0.0.1 /index.php/home/article/index/id/Public/Uploads/2017-08-13/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/Public/Default/error_page/error.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Public' in 'where clause'
+

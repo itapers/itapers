@@ -1,4 +1,5 @@
 <include file = "Article:header" />
+<link rel="stylesheet" href="css/style.css">
 <!-- 正文开始 -->
 <div class="wrapper wrapper-content animated fadeInRight">
     <div class="row">
@@ -11,9 +12,13 @@
                                 <h1>
                                     {$articleInfo.title}
                                 </h1>
+
                             </span>
                         </div>
                         <div style="margin-bottom:50px;">
+                            <if condition = "$articleInfo.mp3 eq true">
+                                <audio src="{$articleInfo.mp3}" autoplay loop></audio>
+                            </if>
                             <if condition = "$articleInfo.viewtumb eq 0">
                                 <img src="{$articleInfo.pic}" alt="" style="width:100%">
                             </if>

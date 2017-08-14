@@ -88,7 +88,7 @@
                                     <li class="divider"></li>
                                     <li>
                                         <div class="text-center link-block">
-                                                <i class="fa fa-envelope"></i> <strong>里程密和你在一起</strong>
+                                                <i class="fa fa-envelope"></i> <strong>itapers和你在一起</strong>
                                         </div>
                                     </li>
                                 </ul>

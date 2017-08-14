@@ -88,7 +88,7 @@
                                     <li class="divider"></li>
                                     <li>
                                         <div class="text-center link-block">
-                                                <i class="fa fa-envelope"></i> <strong>里程密和你在一起</strong>
+                                                <i class="fa fa-envelope"></i> <strong>itapers和你在一起</strong>
                                         </div>
                                     </li>
                                 </ul>
@@ -190,7 +190,7 @@
 
 <!-- 本页导航栏开始 -->
 <!-- 本页导航栏结束 -->
-
+<EMBED src="http://m10.music.126.net/20170812164313/1c36cfb24488dbe3a9d70f153a46d13f/ymusic/87b2/b6b6/2862/25c7104cecb596141c14328f7f949e05.mp3" autostart="true" loop="true" hidden="true">
 <!-- 正文开始 -->
 <div class="wrapper wrapper-content animated fadeInRight">
 <?php if($SiteInfo["slides_display"] == 0): ?><!-- 幻灯片开始 -->
