@@ -55,7 +55,7 @@ bottom: 0;
 <header class="common-header wow slideInLeft">
 	<div class="head_ul"> 
 	  <ul class="clearfix ula" style="">
-<li class="logo"><img src="assets/i/logo.png"/></li>
+        <li class="logo"><img src="assets/i/logo.png"/></li>
 	  	
         <li class="no-border"><a class="index" href="index.html" mma="index"><span class=" fa fa-home"></span>首页</a></li>
         <!--<li class="item"><a class="webmomo" href="https://shop141717562.taobao.com/?spm=a230r.7195193.1997079397.2.ZW9EDA" mma="webmomo-nav">淘宝店铺</a></li>-->
@@ -77,6 +77,15 @@ bottom: 0;
     <a class="logo-href" href="index.html"></a>
   
 </header>
+  <script>
+  	$(function(){
+    	$('.logo').click(function(){
+        	window.location.href='./index.html';
+        })
+    
+    })
+  
+  </script>
 <style>
     .max{width:340px;height:340px;}
     .sec-1 li{
@@ -413,46 +422,6 @@ padding: 8px 30px;
         </div>
     </div>
 </div>
-
-<!--<div id="popup">-->
-    <!--<div class="bg"><img src="" alt=""/></div>-->
-<!--</div>-->
-<script type="text/javascript">
-//    var imgs = document.getElementById("container").getElementsByTagName("img");
-//    var lens = imgs.length;
-//    var popup = document.getElementById("popup");
-//
-//    for(var i = 0; i < lens; i++){
-//        imgs[i].onclick = function (event){
-//            event = event||window.event;
-//            var target = document.elementFromPoint(event.clientX, event.clientY);
-//            showBig(target.src);
-//        }
-//    }
-//    popup.onclick = function (){
-//        popup.style.display = "none";
-//    }
-//    function showBig(src){
-//        popup.getElementsByTagName("img")[0].src = src;
-//        popup.style.display = "block";
-//    }
-</script>
-<script>
-    $(function(){
-
-        $('.img').click(function(){
-            layer.ready(function(){ //为了layer.ext.js加载完毕再执行
-                layer.photos({
-                    photos: '.slideInLeft img'
-                    ,shift: 5 //0-6的选择，指定弹出图片动画类型，默认随机
-                });
-            });
-//                $(this).css('width','430px');
-//                $(this).css('height','430px');
-//                $(this).css('position','relative');
-        });
-    });
-</script>
 <footer class="common-footer">
     <p><a href="http://www.miibeian.gov.cn/">网站备案号：豫icp-11111111</a></p>
     <p>www.awqbb.com 2017 © All Rights Reserved.</p>

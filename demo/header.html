@@ -61,34 +61,34 @@
 		<header class="common-header wow slideInLeft">
 			<a class="logo-href" href="default.html"></a>
 			<div class="menu_tab">
-				<img src="assets/i/logo.png" />
+				<img  src="assets/i/logo.png" onclick="parent.location.reload()"/>
 				<span class="fa fa-align-justify fa-2x" id='showmenu'>    </span>
 			</div>
 			<div id='menu_list'style="background: green;
     height: 45px;padding-top: 4px;">
 
 				<ul class="clearfix " style="overflow:auto;">
-					<li class="no-border">
-						<a class="index" href="default.html" mma="index">首页</a>
+					<li class="no-border index" onclick="parent.location.reload()">
+						首页
 					</li>
 					<!--<li class="item"><a class="webmomo" href="https://shop141717562.taobao.com/?spm=a230r.7195193.1997079397.2.ZW9EDA" mma="webmomo-nav">淘宝店铺</a></li>-->
 
 					<!--<li><a class="active" href="https://weidian.com/?userid=1017873574" mma="active">微信店铺</a></li>-->
 
 					<li>
-						<a class="join" href="bk.awqbb.com" mma="join">爱在博客</a>
+						<a class="join" href="bk.awqbb.com" target="_blank" mma="join">爱在博客</a>
 					</li>
 					<li class="item">
-						<a href="http://t.qq.com/gfawqbb">爱在微博</a>
+						<a href="http://t.qq.com/gfawqbb" target="_blank">爱在微博</a>
 					</li>
 					<li class="item">
-						<a href="http://www.renren.com/">爱在空间</a>
+						<a href="http://www.renren.com/" target="_blank">爱在空间</a>
 					</li>
 					<li class="item">
-						<a href="1212.awqbb.com">爱在mall</a>
+						<a href="1212.awqbb.com" target="_blank">爱在mall</a>
 					</li>
 					<li class="item">
-						<a href="3434.awqbb.com">联系我们</a>
+						<a href="3434.awqbb.com" target="_blank">联系我们</a>
 					</li>
 
 				</ul>
@@ -101,6 +101,9 @@
 			$("#showmenu ").click(function() {
 				$('#menu_list').toggle()
 			});
+			$('.pic').click(function(){
+				window.location.href='default.html';
+			})
 		});
 	</script>
 
