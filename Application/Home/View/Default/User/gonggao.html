@@ -1,0 +1,57 @@
+<include file = "Public:userheader" title = "会员中心-{$SiteInfo.title}" />
+    <link href="__PUBLIC__/Default/css/style.css" rel="stylesheet">
+<!-- 正文开始 -->
+<li class="selected" id = "liselected7">
+
+
+    <div class="cd-full-width">
+        <div class="container-fluid js-tm-page-content tm-page-1" data-page-no="1">
+
+            <div class="row">
+
+                <div class="col-xs-12">
+                    <div class="tm-bg-white-translucent text-xs-left tm-textbox diannao">
+
+                        <foreach name = "arr" item = "vo">
+                    <div class="faq-item">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <a aria-expanded="false" data-toggle="collapse" href="#faq{$vo.id}" class="faq-question collapsed">{$vo.title}</a>
+                                    <small>Added by <strong>Alex Smith</strong> <i class="fa fa-clock-o"></i>{$vo.ctime|date = "Y-m-d H:i:s",###}</small>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="small font-bold">会员请严格遵守</span>
+                                    <div class="tag-list">
+                                        <span class="tag-item">网站管理员</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 text-right">
+                                    <span class="small font-bold">超级BOSS </span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div style="height: 0px;" aria-expanded="false" id="faq{$vo.id}" class="panel-collapse collapse">
+                                        <div class="faq-answer">
+                                            <p>
+                                                {$vo.content}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreach>
+                   </div>
+               </div>
+           </div>
+       </div>
+
+   </div> <!-- .cd-full-width -->
+
+</li>
+<!-- 正文结束 -->
+
+<!-- 调用脚部文件 -->
+<include file = "Public:userfooter"  />
+

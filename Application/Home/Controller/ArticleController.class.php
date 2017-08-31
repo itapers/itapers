@@ -22,9 +22,9 @@ class ArticleController extends BaseController {
             $this->assign("fenleiInfo",$fenleiInfo);
             $this->assign("is_active",$fenleiInfo['id']);
             $theme = C('DEFAULT_THEME');
-            $file = "./Application/Home/View/{$theme}/Article/index{$articleInfo['type']}.html";
+            $file = "./Application/Home/View/{$theme}/Article/index{$fenleiInfo['type']}.html";
             if(file_exists($file)){
-                $this->display("index{$articleInfo['type']}");
+                $this->display("index{$fenleiInfo['type']}");
             }else{
                 $this->display("index");
             }
