@@ -1,0 +1,80 @@
+<!-- 调用头部文件 -->
+<include file = "Public:userheader" title = "会员中心-{$SiteInfo.title}" />
+<link href="__PUBLIC__/Default/css/bootstrap.min.css" rel="stylesheet">
+<link href="__PUBLIC__/Default/css/style.css" rel="stylesheet">
+<!-- 正文开始 -->
+<li class="selected" id = "liselected3">
+
+
+    <div class="cd-full-width">
+        <div class="container-fluid js-tm-page-content tm-page-1" data-page-no="1">
+
+            <div class="row">
+
+                <div class="col-xs-12">
+                <div class="tm-bg-white-translucent text-xs-left tm-textbox" >
+                        <center>
+                            <form method="post" action="">
+                                <div class="form-group has-success"><label class="col-sm-2 control-label">搜索文章</label>
+                                    <div class="col-sm-6"><input class="form-control" required="" name="keywords" type="text"></div>
+                                    <div class="col-sm-4">
+                                        <button type="submit" class="pull-xs-right tm-submit-btn">搜索</button>
+                                    </div>
+                                </div>
+                                <br>
+                            </form>
+                        </center>
+
+                        <div>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>序号</th>
+                                        <th>标题</th>
+                                        <th>浏览</th>
+                                        <th>密码</th>
+                                        <th>时间</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <foreach name = "articleList" item= "vo" key = "k">
+                                        <tr>
+                                            <td>{$k+1}</td>
+                                            <td>{$vo.title|msubstr=0,20,'utf-8',true}</td>
+                                            <td>{$vo.view}</td>
+                                            <td>{$vo.articlepassword}</td>
+                                            <td>{$vo.ctime|date = "Y-m-d",###}</td>
+                                            <td><a href="{:U('Article/index',array('id'=>$vo['id']))}"><button type="button" class="btn btn-primary btn-xs">查看</button></a>
+                                               <a href="{:U('User/updateArticle',array('id'=>$vo['id']))}"><button type="button" class="btn btn-primary btn-xs">修改</button></a>
+                                               <a href="{:U('User/delArticle',array('id'=>$vo['id']))}" onclick="return queren()"><button type="button" class="btn btn-danger btn-xs">删除</button></a>
+                                           </td>
+                                       </tr>
+
+                                   </foreach>
+                               </tbody>
+                           </table>
+                       </div>
+                       {$page}
+                   </div>
+               </div>
+           </div>
+       </div>
+
+   </div> <!-- .cd-full-width -->
+
+</li>
+<!-- 正文结束 -->
+
+<!-- 调用脚部文件 -->
+<include file = "Public:userfooter"  />
+<script>
+    function queren(){
+        if(confirm("确认删除？")){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+</script>

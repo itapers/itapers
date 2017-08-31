@@ -1,0 +1,48 @@
+<include file = "Article:header" />
+<!-- 正文开始 -->
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12" style="padding:0px;">
+            <div class="col-lg-9">
+                <div class="ibox">
+                    <div class="ibox-content">
+                        <div class="text-center article-title" style="margin:20px 0px 20px">
+                            <span class="text-muted">
+                                <h1>
+                                    {$articleInfo.title}
+                                </h1>
+                            </span>
+                        </div>
+                        <div style="margin-bottom:50px;">
+                            <!-- 心情 -->
+                            <img src="__PUBLIC__/Uploads/{$articleInfo.pic}" alt="" style="width:100%">
+                            <!--心情结束-->
+
+                        </div>
+                        <div id = "beijing">
+                            <p style="font-size:14px;" class="text2" >
+
+                                {$articleInfo.content|strip_tags}
+
+                            </p>
+                        </div>
+                        <include file = "Article:footer" />
+                        <link href="__PUBLIC__/wenzixiaoguo/css/animate.css" rel="stylesheet">
+                        <script src="__PUBLIC__/wenzixiaoguo/js/jquery.lettering.js"></script>
+                        <script src="__PUBLIC__/wenzixiaoguo/js/jquery.textillate.js"></script>
+                        <script>
+                            $(function () {
+                                $('.text2').textillate({
+                                    initialDelay: 1000,     //设置动画开始时间
+                                    in: { effect: 'flipInX' //设置动画名称
+                                    }
+                                });
+                            })
+                            $("#beijing").css("background","#242424");
+                            $("#beijing").css("color","#fff");
+                            $("#beijing").css("padding","10px");
+                        </script>
+                        <style type="text/css">
+                            .text1,.text2,.text3 {visibility:hidden;}
+                            .text2 {font-family:microsoft yahei;font-size:14px;line-height:24px;text-shadow:0.1em 0.1em 0.1em rgba(0, 0, 0, 0.8)}
+                        </style>
